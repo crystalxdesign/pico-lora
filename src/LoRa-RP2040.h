@@ -11,10 +11,18 @@
 #include "string.h"
 #include "Print.h"
 
+#define PICOZERO
+#ifndef PICOZERO
 #define PIN_MISO 16
 #define PIN_CS   8
 #define PIN_SCK  18
 #define PIN_MOSI 19
+#else
+#define PIN_MISO 4
+#define PIN_CS   8
+#define PIN_SCK  2
+#define PIN_MOSI 3
+#endif
 
 #define SPI_PORT spi0
 #define READ_BIT 0x80
