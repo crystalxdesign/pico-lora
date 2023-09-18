@@ -16,10 +16,12 @@
 #define PIN_MISO 16
 #define PIN_SCK  18
 #define PIN_MOSI 19
+#define LORA_DEFAULT_RESET_PIN     9
 #else
 #define PIN_MISO 4
 #define PIN_SCK  2
 #define PIN_MOSI 3
+#define LORA_DEFAULT_RESET_PIN     6
 #endif
 
 #define PIN_CS   8
@@ -29,7 +31,6 @@
 #define LORA_DEFAULT_SPI           spi0
 #define LORA_DEFAULT_SPI_FREQUENCY 8E6
 #define LORA_DEFAULT_SS_PIN        8
-#define LORA_DEFAULT_RESET_PIN     9
 #define LORA_DEFAULT_DIO0_PIN      7
 #endif
 
