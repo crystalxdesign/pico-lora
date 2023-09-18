@@ -22,14 +22,14 @@ This library is written for RP2040 C++ SDK.
 | GPIO 9 | RESET |
 | GPIO 10 | DIO1 / G1 |
 
-Default Pinout can be overrided with setPins() function
+Default Pinout can be overridden with setPins() function
 
 ## Installation
 
 1. [Set up the Pico C/C++ SDK](https://github.com/raspberrypi/pico-sdk)
 2. Download module from git and open directory
 ```sh
-git clone https://github.com/akshayabali/pico-lora.git
+git clone https://github.com/crystalxdesign/pico-lora.git
 cd ./pico-lora
 ```
 3. Set `PICO_SDK_PATH`
