@@ -9,10 +9,7 @@ This library is written for RP2040 C++ SDK.
  * Semtech SX1276/77/78/79 based LoRa boards
 
 ### Default Pinout
-#define PIN_MISO 4
-#define PIN_SCK  2
-#define PIN_MOSI 3
-#define LORA_DEFAULT_RESET_PIN     6
+
 | Raspberry Pi Pico | RP2040-Zero | Semtech SX1278 |
 | ----------------- | -------------- | -------------- |
 | 3.3V | 3.3V | VCC |
